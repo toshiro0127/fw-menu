@@ -4,9 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Club Forward</title>
+    <script src="./lib/jquery-2.1.1.min.js"></script>
   </head>
   <body>
-
+     <div id="menu">
+     </div>
 
    <h1>SYSTEM</h1>
    <h2>Price</h2>
@@ -39,4 +41,17 @@
    </p>
 
   </body>
+  <script src="./js/item.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function (){
+      for(i in window.item){
+        console.log(window.item[i].name);
+        console.log(window.item[i].price);
+        var $div = $("div#menu");
+        $div.append('<span>' + window.item[i].name + '</span>');
+        $div.append('<span>' + window.item[i].price + '</span>');
+        $div.append('</br>');
+      }
+    });
+  </script>
 </html>
