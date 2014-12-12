@@ -8,6 +8,20 @@
   </head>
   <body>
      <div id="menu">
+       <!-- ボタン -->
+       <div id="menu-changer">
+          <a id="menu-changer-1"href="javascript: vaid(0);">ボタン１</a>
+          <a id="menu-changer-2"href="javascript: vaid(0);">ボタン２</a>
+       </div>
+
+       <!-- 商品情報表示テーブル　-->
+       <table>
+         <thead>
+           <th>MENU</th><th>PRICE</th>
+         </thead>
+         <tbody>
+         </tbody>
+       </table>
      </div>
 
    <h1>SYSTEM</h1>
@@ -47,11 +61,30 @@
       for(i in window.item){
         console.log(window.item[i].name);
         console.log(window.item[i].price);
-        var $div = $("div#menu");
-        $div.append('<span>' + window.item[i].name + '</span>');
-        $div.append('<span>' + window.item[i].price + '</span>');
-        $div.append('</br>');
+        var $tr = $('<tr>');
+        var $td_n = $('<td>').text(window.item[i].name);
+        var $td_p = $('<td>').text(window.item[i].price);
+        $tr.append($td_n);
+        $tr.append($td_p);
+
+        var $items = $("div#menu table tbody");
+        $items.append($tr);
       }
+
+      /*ボタン１のクリックイベント*/
+      $('a#menu-changer-1').on(
+        'click',
+        function(event){
+          alert('ボタン1がクリックされました')
+        }
+      );
+      /*ボタン2のクリックイベント*/
+      $('a#menu-changer-2').on(
+        'click',
+        function(event){
+          alert('ボタン2がクリックされました')
+        }
+      );
     });
   </script>
 </html>
