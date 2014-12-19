@@ -4,38 +4,56 @@
     name:'端麗グリーンラベル',
     price:1500,
     grade:'A',
+    genre:'beer',
   },
   carori:{
     name:'カロリ',
     price:1500,
     grade:'A',
+    genre:'beer',
   },
   coctail_carori:{
     name:'カクテルカロリ',
     price:1500,
     grade:'A',
+    genre:'beer',
   },
   Asahi_Super_Dry:{
     name:'アサヒスーパードライ',
     price:1500,
     grade:'A',
+    genre:'beer',
   },
   Nama_beer:{
     name:'生ビール',
     price:1500,
     grade:'A',
+    genre:'beer',
   },
   Sky_Blue:{
     name:'スカイブルー',
     price:1500,
     grade:'A',
+    genre:'beer',
   },
   Smirnoff_ICE:{
     name:'スミノフアイス',
     price:1500,
     grade:'A',
+    genre:'beer',
   },
-
+  Kyougetsu:{
+    name:'鏡月',
+    price:6000,
+    grade:'A',
+    genre:'bottle',
+  },
+  gland_blue:{
+    name:'グランブルー',
+    price:6000,
+    grade:'A',
+    genre:'bottle',
+  },
 
 
 

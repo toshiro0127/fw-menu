@@ -10,8 +10,8 @@
      <div id="menu">
        <!-- ボタン -->
        <div id="menu-changer">
-          <a id="menu-changer-1"href="javascript: vaid(0);">ボタン１</a>
-          <a id="menu-changer-2"href="javascript: vaid(0);">ボタン２</a>
+          <a class="menu-changer" data-genre="beer" href="javascript:void(0);">beer</a>
+          <a class="menu-changer" data-genre="bottle" href="javascript:void(0);">bottle</a>
        </div>
 
        <!-- 商品情報表示テーブル　-->
@@ -57,32 +57,48 @@
   </body>
   <script src="./js/item.js"></script>
   <script type="text/javascript">
-    $(document).ready(function (){
-      for(i in window.item){
-        console.log(window.item[i].name);
-        console.log(window.item[i].price);
-        var $tr = $('<tr>');
-        var $td_n = $('<td>').text(window.item[i].name);
-        var $td_p = $('<td>').text(window.item[i].price);
-        $tr.append($td_n);
-        $tr.append($td_p);
+    $(document).ready(function ()
+    {
+      item_render(window.item);
 
-        var $items = $("div#menu table tbody");
-        $items.append($tr);
+      function item_render(items) {
+        $("div#menu table tbody tr").remove();
+        for(i in items){
+          var $tr = $('<tr>');
+          var $td_n = $('<td>').text(items[i].name);
+          var $td_p = $('<td>').text(items[i].price);
+          $tr.append($td_n);
+          $tr.append($td_p);
+
+          var $items = $("div#menu table tbody");
+          $items.append($tr);
       }
+    }
+
+      //genreをキーに、アイテムを抽出して返す
+      //線形探索(Liner Search)アルゴリズムによって商品情報から探索してくる。
+      function item_search_by_genre(genre){
+        var _item_search_by_genre ={};//戻り値用のオブジェクト
+        for (i in window.item){　　　　//全ての商品情報を取り出してループ　　　　
+          var item = window.item[ i ];//window.item[ i ];を書くのがダルいから変数に突っ込む
+          if(item.genre === genre){　 //取り出した商品のジャンルが引数で指定されたジャンルと
+                                      //一致しているか確認　
+            _item_search_by_genre[ i ] = item;//戻り値用のオブジェクトに突っ込む
+          }
+        }
+        return　_item_search_by_genre;
+      };
 
       /*ボタン１のクリックイベント*/
-      $('a#menu-changer-1').on(
+      $('a.menu-changer').on(
         'click',
         function(event){
-          alert('ボタン1がクリックされました')
-        }
-      );
-      /*ボタン2のクリックイベント*/
-      $('a#menu-changer-2').on(
-        'click',
-        function(event){
-          alert('ボタン2がクリックされました')
+          //alert('メニュー切り替えボタンがクリックされました。')
+          //タグに data-genre が設定されているので、それを取り出してみる
+          var genre = $(this).attr('data-genre');
+          item_render(
+            item_search_by_genre(genre)
+          );
         }
       );
     });
