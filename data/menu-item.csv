@@ -1,0 +1,94 @@
+メインジャンル,サブジャンル,サブサブジャンル,項目,値段,オールコール,グレード
+Beer,undefined,undefined,淡麗グリーンラベル,1500,FALSE,A
+Beer,undefined,undefined,カロリ,1500,FALSE,A
+Beer,undefined,undefined,カクテルカロリ,1500,FALSE,A
+Beer,undefined,undefined,アサヒスーパードライ,1500,FALSE,A
+Beer,undefined,undefined,生ビール,1500,FALSE,A
+Beer,undefined,undefined,スカイブルー,1500,FALSE,A
+Beer,undefined,undefined,スミノフ,1500,FALSE,A
+Bottle,undefined,undefined,鏡月各種,6000,FALSE,A
+Bottle,undefined,undefined,グランブルー,6000,FALSE,A
+Bottle,undefined,undefined,JAPAN,7000,FALSE,A
+Bottle,undefined,undefined,果実酒　各種,8000,FALSE,A
+Bottle,undefined,undefined,鍛高譚　紫蘇,12000,FALSE,A
+Bottle,undefined,undefined,上等梅酒,12000,FALSE,A
+Bottle,undefined,undefined,黒霧島,12000,FALSE,A
+Bottle,undefined,undefined,柚子小町,15000,FALSE,A
+Bottle,undefined,undefined,吉四六,15000,FALSE,A
+Drink,割物,undefined,緑茶,1000,FALSE,A
+Drink,割物,undefined,ウーロン茶,1000,FALSE,A
+Drink,割物,undefined,ストレートティー,1000,FALSE,A
+Drink,割物,undefined,レモンティー,1000,FALSE,A
+Drink,割物,undefined,ミルクティー,1000,FALSE,A
+Drink,割物,undefined,ジャスミンティー,1000,FALSE,A
+Drink,割物,undefined,麦茶,1000,FALSE,A
+Drink,割物,undefined,コーラ,1000,FALSE,A
+Drink,割物,undefined,ジンジャーエール,1000,FALSE,A
+Drink,割物,undefined,カルピス,1000,FALSE,A
+Drink,割物,undefined,オレンジ,1000,FALSE,A
+Drink,割物,undefined,アップル,1000,FALSE,A
+Drink,割物,undefined,グレープフルーツ,1000,FALSE,A
+Drink,割物,undefined,パイン,1000,FALSE,A
+Drink,割物,undefined,アセロラ,1000,FALSE,A
+Drink,割物,undefined,トマトジュース,1000,FALSE,A
+Drink,割物,undefined,ピーチ,1000,FALSE,A
+Drink,割物,undefined,梅干,1000,FALSE,A
+Drink,割物,undefined,ミルク,2000,FALSE,A
+Drink,割物,undefined,レッドブル,1600,FALSE,A
+Liqueur,undefined,undefined,ジン,1500,FALSE,A
+Liqueur,undefined,undefined,ウォッカ,1500,FALSE,A
+Liqueur,undefined,undefined,チョコ,1500,FALSE,A
+Liqueur,undefined,undefined,マリブ,1500,FALSE,A
+Liqueur,undefined,undefined,カシス,1500,FALSE,A
+Liqueur,undefined,undefined,ピーチ,1500,FALSE,A
+Liqueur,undefined,undefined,ライチ,1500,FALSE,A
+Liqueur,undefined,undefined,カルーア,1500,FALSE,A
+Liqueur,undefined,undefined,テキーラ,1500,FALSE,A
+Liqueur,undefined,undefined,タランチュラ　各種,1500,FALSE,A
+Liqueur,undefined,undefined,イエーガーマイスター,1500,FALSE,A
+Liqueur,undefined,undefined,レッドブルウォッカ,2000,FALSE,A
+Non Alcohol,undefined,undefined,ストロベリー,1500,FALSE,A
+Non Alcohol,undefined,undefined,チョコ,1500,FALSE,A
+Non Alcohol,undefined,undefined,マリブ,1500,FALSE,A
+Non Alcohol,undefined,undefined,ピーチ,1500,FALSE,A
+Non Alcohol,undefined,undefined,ライチ,1500,FALSE,A
+Non Alcohol,undefined,undefined,バナナ,1500,FALSE,A
+Non Alcohol,undefined,undefined,カシス,1500,FALSE,A
+Non Alcohol,undefined,undefined,抹茶,1500,FALSE,A
+Non Alcohol,undefined,undefined,キャラメル,1500,FALSE,A
+Sparkling Wine,Cafe De Paris,undefined,Cafe De Paris グレープフルーツ,20000,FALSE,A
+Sparkling Wine,Cafe De Paris,undefined,Cafe De Paris ピーチ,20000,FALSE,A
+Sparkling Wine,Cafe De Paris,undefined,Cafe De Paris ライチ,20000,FALSE,A
+Sparkling Wine,Cafe De Paris,undefined,Cafe De Paris 洋梨,20000,FALSE,A
+Sparkling Wine,Cafe De Paris,undefined,Cafe De Paris チェリー,20000,FALSE,A
+Sparkling Wine,Cafe De Paris,undefined,Cafe De Paris フランボワーズ,20000,FALSE,A
+Sparkling Wine,Cafe De Paris,undefined,Cafe De Paris グリーンアップル,20000,FALSE,A
+Sparkling Wine,Cafe De Paris,undefined,Cafe De Paris マスカット,20000,FALSE,A
+Sparkling Wine,Listel,undefined,Listel ピーチ,15000,FALSE,A
+Sparkling Wine,Listel,undefined,Listel ストロベリー,15000,FALSE,A
+Sparkling Wine,Listel,undefined,Listel フランボワーズ,15000,FALSE,A
+Sparkling Wine,Listel,undefined,Listel グリーンアップル,15000,FALSE,A
+Champagne,Asti,undefined,Asti スプマンテ,30000,FALSE,A
+Champagne,Roger Goulart,undefined,Roger Goulart ホワイト,50000,FALSE,S
+Champagne,Roger Goulart,undefined,Roger Goulart ロゼ,70000,FALSE,S
+Champagne,Roger Goulart,undefined,Roger Goulart ゴールド,100000,FALSE,S
+Champagne,Roger Goulart,undefined,Roger Goulart プラチナ,200000,FALSE,S
+Champagne,Roger Goulart,undefined,Roger Goulart プレミア,40000,FALSE,S
+Exclusive,Larsen,Ship,Larsen 各色,160000,FALSE,S
+Exclusive,Larsen,Ship,Larsen ゴールド,200000,FALSE,S
+Exclusive,Larsen,Ship,Larsen 限定色,300000,TRUE,SS
+Exclusive,Larsen,Ship,Larsen プラチナゴールド,370000,TRUE,SS
+Exclusive,Camus,Book,Camus 各色,140000,FALSE,S
+Exclusive,Camus,Book,Camus 限定色,250000,FALSE,SS
+Exclusive,Dolphin,undefined,Dolphin ブルー,200000,FALSE,S
+Exclusive,Dolphin,undefined,Dolphin ピンク,400000,TRUE,SS
+Exclusive,Dolphin,undefined,Dolphin ゴールド,500000,TRUE,SS
+Exclusive,Dolphin,undefined,Dolphin プラチナ,600000,TRUE,SS
+Exclusive,Dolphin,undefined,Dolphinブラック,800000,TRUE,SS
+Other,undefined,undefined,Paradis Extra,500000,TRUE,SS
+Other,undefined,undefined,Tradition,ASK,TRUE,SS
+Other,undefined,undefined,Michel Royal,ASK,TRUE,SS
+Other,undefined,undefined,Lois XIII,ASK,TRUE,SS
+Other,undefined,undefined,Cordon Blue,ASK,TRUE,SS
+Other,undefined,undefined,Jubilee,ASK,TRUE,SS
+Other,undefined,undefined,Richard,ASK,TRUE,SS
